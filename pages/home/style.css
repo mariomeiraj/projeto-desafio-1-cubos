@@ -1,0 +1,133 @@
+@import url(../../css/global.css);
+
+.header__nav__list a {
+  color: var(--main-color-dark-blue);
+}
+
+header .nav__list__home a {
+  color: var(--main-color-cyan);
+  padding-bottom: 3px;
+  border-bottom: 1px solid var(--main-color-cyan);
+}
+
+.home__section {
+  margin-bottom: 150px;
+  height: 600px;
+  background-image: url(./../../assets/home/image-homepage-hero.jpg);
+  background-size: cover;
+
+  display: flex;
+  align-items: flex-end;
+}
+
+.home__apresentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: var(--second-color-light-grey);
+  width: 445px;
+  height: 357px;
+
+  padding: 0 25px;
+}
+
+.home__apresentation__title {
+  margin-top: 55px;
+
+  color: var(--main-color-dark-blue);
+
+  font: var(--font-h1);
+  letter-spacing: var(--letter-spacing-h1);
+}
+
+.home__apresentation__btn {
+  display: flex;
+  align-items: center;
+
+  max-width: 200px;
+  margin-left: -25px;
+
+  border: none;
+  color: white;
+  background: var(--main-color-blue);
+
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.apresentation__btn__arrows {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 18px 16px;
+}
+
+.home__apresentation__btn a {
+  margin: auto;
+  color: var(--second-color-light-grey);
+}
+
+.home__apresentation__btn:hover {
+  cursor: pointer;
+  color: white;
+  background: var(--main-color-cyan);
+}
+
+.about__section {
+  margin-bottom: 150px;
+
+  display: flex;
+  justify-content: space-between;
+  max-height: 600px;
+}
+.about__section img {
+  height: 600px;
+}
+
+.about__description {
+  height: 100%;
+  width: 430px;
+}
+
+.about__description__line {
+  border: 1px solid var(--main-color-dark-blue);
+  opacity: 0.15;
+}
+
+.about__description__line.one {
+  margin: 0 0 54px;
+}
+
+.about__description__line.two {
+  margin: 46px 0 0;
+}
+
+.about__description__title {
+  margin-top: 51px;
+  margin-bottom: 26px;
+
+  color: var(--main-color-dark-blue);
+
+  font: var(--font-h2);
+  letter-spacing: var(--letter-spacing-h2);
+}
+
+.about__section p {
+  margin-bottom: 20px;
+
+  color: var(--main-color-dark-blue);
+
+  font-family: 'Public Sans';
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.about__btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

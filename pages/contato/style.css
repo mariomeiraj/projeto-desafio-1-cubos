@@ -1,0 +1,117 @@
+@import url(./../../css/global.css);
+
+.header__nav__list a {
+  color: var(--main-color-dark-blue);
+}
+
+header .nav__list__contact a {
+  color: var(--main-color-cyan);
+  padding-bottom: 3px;
+  border-bottom: 1px solid var(--main-color-cyan);
+}
+
+.division__line {
+  border: 1px solid var(--main-color-dark-blue);
+  opacity: 0.15;
+}
+
+.division__line.one {
+  margin: 20px 0 48px;
+}
+
+.division__line.two {
+  margin: 48px 0 48px;
+}
+
+.enter__contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.enter__contact__title h2 {
+  color: var(--main-color-dark-blue);
+
+  font: var(--font-h2);
+  letter-spacing: var(--letter-spacing-h2);
+}
+
+.enter__contact__about {
+  width: 635px;
+}
+
+.enter__contact__about p {
+  color: var(--main-color-dark-blue);
+
+  font-family: 'Public Sans';
+  font-size: 16px;
+  line-height: 30px;
+
+  margin-bottom: 34px;
+}
+
+.enter__contact__inputs {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+label {
+  font-family: 'Public Sans';
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+input {
+  border: none;
+  background: var(--main-color-dark-blue--op);
+  mix-blend-mode: normal;
+
+  margin-bottom: 24px;
+}
+
+.contact__input__small {
+  padding: 12px 8px;
+}
+
+.contact__input__small:focus {
+  border-radius: 0px;
+  border: 2px solid var(--main-color-dark-blue);
+}
+
+#msg {
+  border: none;
+  background: var(--main-color-dark-blue--op);
+  mix-blend-mode: normal;
+
+  padding: 8px;
+  margin-bottom: 24px;
+}
+
+#msg:focus {
+  border-radius: 0px;
+  border: 2px solid var(--main-color-dark-blue);
+}
+
+.contact__input__btn {
+  width: 200px;
+  text-align: center;
+  padding: 17px;
+
+  border: 1px solid var(--main-color-dark-blue);
+  background-color: var(--main-color-blue);
+  color: var(--second-color-light-grey);
+
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+}
+
+.contact__input__btn:hover {
+  cursor: pointer;
+  background-color: var(--main-color-cyan);
+  border: 1px solid var(--main-color-cyan);
+}
