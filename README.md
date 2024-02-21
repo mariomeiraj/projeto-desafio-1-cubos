@@ -2,6 +2,8 @@
 
 # Desafio | Front-end - Módulo 1
 
+Deployed: https://mariomeiraj.github.io/projeto-desafio-1-cubos/
+
 O objetivo deste exercício é replicar o website encontrado no arquivo 'Desafio front academy 1.fig'.
 
 ## Páginas obrigatórias
